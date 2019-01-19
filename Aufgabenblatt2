@@ -1,0 +1,40 @@
+A1
+e,ae,be,ce,de,bce,bde,bcde,cde,bbce,bbde,bbcde,bbbce.usw.
+
+b)
+zulässig
+zulässig obwohl Punkt bei 0.8 fehlt
+zulässig
+zulässig
+
+???
+c)
+Deklaration
+
+d)
+postinkrement
+
+e)
+'0' unzulässig
+/* ungeschlossener KOmmentar
+long quitemuch...
+int j = 5; // (i-1) Syntaxfehler
+i++ nur als Wert mgl z.B int i = i++
+i++ funktioniert nur bei methoden bzw. funktionen u Prozeduren
+-> umformung zu -1 bzw. +1
+
+import static java.lang.System.*;
+f)
+public class Aufgabe2 {
+
+    static final long MUCH = 10000;
+    public static void main(String[] args) {
+        int dangerous = 13;
+        int Zero = 0;
+        long quiteMuch = MUCH / 2; // rundet ab
+dangerous = dangerous-1;
+for (int i = 1;int j = 5;int i= i++) // i erhoehen
+( Abbruch, das ist Zeitverschwendung, der soll ordentlich formulieren was er will der Honk!!)
+
+g) der Abschnitt löst sich auf.(ausßer man will a zuweisen int a;
+(ich gehe davon aus, das das verlassene minus vor dem Komma ein Fehler ist.
