@@ -2,5 +2,5 @@
 
 /*
 How can i create a new folder to put in my work?
-I dont have writing status
+I dont have writing permission
 */
