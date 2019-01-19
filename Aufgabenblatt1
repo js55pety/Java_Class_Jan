@@ -1,0 +1,63 @@
+import java.util.Scanner;
+public class test{
+
+    public static void main(String[] args) {
+        System.out.println("Gruesse vom ersten Java-Programm.");
+    }
+}
+
+Teil 2
+a) 
+Es kann mehr Werte wie Varialen geben, da Variablen beliebig oft andere Werte annehmen können.
+Aber es kann nie weniger Werte wie Variablen geben, da jede Variable einen Wert benötigt
+Variablen sind "Behälter" für Werte.
+
+b)
+1. null<- 1		zulässig
+2. null + eins<- 1	Mit Variablen kann nicht gerechnet werden in einer Zuweisung ausser 'null+eins' ist Variable
+3. 1 <-1 		int kann keinen Wert enthalten
+4. i <-’A’
+   i<- 7		Unzulässig. Erst string dann int
+
+c)
+ja, wenn nicht in der Wertzuweisung auf andere Variablen verwiesen wird. Dann kann sich etwas ändern bzw. error entstehen. 
+z.B. 	x<-5
+	y<-2*x
+
+d)???Habe die Vorlesungsmaterialien nicht nicht
+
+e) Programm um exakte bzw. nächst höhere Quadratwurzel zu ermitteln:
+
+import java.util.Scanner;
+public class test
+{    public static void main(String[] args)
+    {
+
+        //taking value as command line argument.
+        Scanner in = new Scanner(System.in);
+        System.out.printf("Enter number for square check:  ");
+        int y = in.nextInt();
+        int x=0;
+        int a =0;
+        do {
+            x=++x;
+            a =x*x;
+
+        }while(a<y);
+        if (a==y){
+            System.out.print(x);
+        }
+        else {
+            System.out.print("No exact square.\nNext square would be " + x +" out of "+a);
+        }
+    }
+}
+
+f)
+a=a-b
+b=a-b+b
+a=a-b+b-a-b
+
+
+
+
